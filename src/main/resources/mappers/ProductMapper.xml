@@ -2,8 +2,71 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.project.test.">
+<mapper namespace="com.project.test.product.mapper.ProductMapper">
     <select id="selProductList">
-
+        SELECT A.product_pk AS productPk
+            ,A.user_pk AS userPk
+            ,B.category_nm AS categoryNm
+            ,A.product_nm AS productNm
+            ,A.memo
+            ,A.created_at AS createdAt
+            ,A.buying_check AS buyingCheck
+            ,date(A.buying_date) AS buyingDate
+        FROM t_purchase_product A
+        JOIN t_category B
+        ON A.category_pk = B.category_pk
+        WHERE A.user_pk = #{userPk}
+        <if test="choiceList == 1">
+            AND A.buying_check = 0
+        </if>
+        <if test="choiceList == 2">
+            AND A.buying_check = 1
+        </if>
     </select>
+    <insert id="insProduct">
+        INSERT INTO t_purchase_product
+        SET user_pk = #{userPk}
+            ,category_pk = #{categoryPk}
+            ,product_nm = #{productNm}
+        <if test="memo != null and memo != '' ">
+            ,memo = #{memo}
+        </if>
+        <if test="productCount > 1">
+            ,product_count = #{productCount}
+        </if>
+    </insert>
+    <update id="updProduct">
+        UPDATE t_purchase_product
+        SET category_pk = #{categoryPk}
+            ,product_nm = #{productNm}
+            ,memo = #{memo}
+            ,product_count = #{productCount}
+        WHERE user_pk = #{userPk}
+    </update>
+    <update id="checkProduct">
+        UPDATE t_purchase_product
+        SET buying_check = 1
+            ,buying_date = NOW()
+        WHERE product_pk = #{productPk}
+    </update>
+
+    <delete id="delProduct">
+        DELETE FROM t_purchase_product
+        WHERE product_pk IN
+        <foreach collection="productPkList" item="productPk" open="(" close=")" separator=",">
+            #{productPk}
+        </foreach>
+        AND buying_check = 0
+    </delete>
+
+
+    <update id="hiedProduct">
+        UPDATE t_purchase_product
+        SET buying_check = 2
+        WHERE product_pk IN
+        <foreach collection="productPkList" item="productPk" open="(" close=")" separator=",">
+            #{productPk}
+        </foreach>
+        AND buying_check = 1
+    </update>
 </mapper>

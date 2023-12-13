@@ -18,10 +18,10 @@ public class ProductService {
     private final ProductMapper PRODUCT_MAPPER;
 
     //구매예정 상품 불러오기
-    public List<ProductSelVo> selProductList(int userPk,int choiceList){
-        ProductSelDto dto = new ProductSelDto();
-        dto.setChoiceList(choiceList);
-        dto.setUserPk(userPk);
+    public List<ProductSelVo> selProductList(ProductSelDto dto){
+        if(dto.getChoiceList() < 0 || dto.getChoiceList() > 2){
+            return null;
+        }
         return PRODUCT_MAPPER.selProductList(dto);
     }
     //구매예정 상품 추가

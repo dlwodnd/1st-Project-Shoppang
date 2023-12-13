@@ -293,3 +293,568 @@
 [2023-12-13 14:51:42 [32mINFO [0;39m] [http-nio-8080-exec-2] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
 [2023-12-13 15:05:32 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
 [2023-12-13 15:05:32 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 15:05:33 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 456 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 15:05:33 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 15:05:33 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 15:05:33 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 15:05:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 15:05:34 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 15:05:34 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 15:05:34 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 15:05:34 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 15:05:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 709 ms[0;39m
+[2023-12-13 15:05:35 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 15:05:35 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 15:05:35 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 15:05:35 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.512 seconds (process running for 1.876)[0;39m
+[2023-12-13 15:05:40 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 15:05:40 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 15:05:40 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 15:05:41 [32mINFO [0;39m] [http-nio-8080-exec-3] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 153 ms[0;39m
+[2023-12-13 15:05:46 [32mINFO [0;39m] [http-nio-8080-exec-10] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 15:05:46 [32mINFO [0;39m] [http-nio-8080-exec-10] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@56a06b69[0;39m
+[2023-12-13 15:05:46 [32mINFO [0;39m] [http-nio-8080-exec-10] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-13 16:01:37 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-13 16:01:37 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 16:01:39 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10152 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:01:39 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:01:39 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:01:39 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 712 ms[0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:01:40 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.52 seconds (process running for 1.874)[0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)[0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10152 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:22:13 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 176 ms[0;39m
+[2023-12-13 16:22:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:22:14 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:22:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:22:14 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.33 seconds (process running for 1235.093)[0;39m
+[2023-12-13 16:22:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10924 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:24:08 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 764 ms[0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.666 seconds (process running for 2.042)[0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:24:09 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 16:24:10 [32mINFO [0;39m] [http-nio-8080-exec-7] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 151 ms[0;39m
+[2023-12-13 16:26:39 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 456 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:26:39 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:26:39 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:26:39 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 718 ms[0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:26:40 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.553 seconds (process running for 1.93)[0;39m
+[2023-12-13 16:26:42 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:26:42 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:26:42 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 16:26:43 [32mINFO [0;39m] [http-nio-8080-exec-4] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 144 ms[0;39m
+[2023-12-13 16:27:31 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 16:27:31 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@315f4c6b[0;39m
+[2023-12-13 16:27:31 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-13 16:28:08 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-13 16:28:08 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 16:28:10 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 11176 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:28:10 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:28:10 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:28:10 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 697 ms[0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:28:11 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.506 seconds (process running for 1.873)[0;39m
+[2023-12-13 16:28:13 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:28:13 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:28:13 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 16:28:13 [32mINFO [0;39m] [http-nio-8080-exec-1] [com.project.test.product.ProductController] [36mselDto : ProductSelDto(userPk=0, choiceList=0, selectDate=2023-12-12)[0;39m
+[2023-12-13 16:28:13 [32mINFO [0;39m] [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 16:28:14 [32mINFO [0;39m] [http-nio-8080-exec-1] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@6573b841[0;39m
+[2023-12-13 16:28:14 [32mINFO [0;39m] [http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 11176 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 202 ms[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.341 seconds (process running for 157.332)[0;39m
+[2023-12-13 16:30:47 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 16:31:41 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 8072 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:31:41 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:31:41 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:31:41 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:31:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:31:42 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:31:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:31:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:31:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:31:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 717 ms[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.549 seconds (process running for 1.926)[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 16:31:43 [32mINFO [0;39m] [http-nio-8080-exec-6] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 152 ms[0;39m
+[2023-12-13 16:31:55 [32mINFO [0;39m] [http-nio-8080-exec-8] [com.project.test.product.ProductController] [36mselDto : ProductSelDto(userPk=1, choiceList=0, selectDate=2023-12-12)[0;39m
+[2023-12-13 16:31:55 [32mINFO [0;39m] [http-nio-8080-exec-8] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 16:31:56 [32mINFO [0;39m] [http-nio-8080-exec-8] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@6595d935[0;39m
+[2023-12-13 16:31:56 [32mINFO [0;39m] [http-nio-8080-exec-8] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 8072 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 181 ms[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.337 seconds (process running for 825.394)[0;39m
+[2023-12-13 16:45:26 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10516 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:55:20 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 708 ms[0;39m
+[2023-12-13 16:55:21 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:55:21 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:55:21 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:55:21 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.521 seconds (process running for 1.872)[0;39m
+[2023-12-13 16:55:33 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:55:33 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:55:33 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 16:55:34 [32mINFO [0;39m] [http-nio-8080-exec-4] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 149 ms[0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)[0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10516 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:57:55 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 170 ms[0;39m
+[2023-12-13 16:57:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:57:56 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:57:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:57:56 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.311 seconds (process running for 156.671)[0;39m
+[2023-12-13 16:57:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 16:58:52 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:58:52 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:58:52 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 16:58:52 [32mINFO [0;39m] [http-nio-8080-exec-2] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 38 ms[0;39m
+[2023-12-13 16:59:17 [32mINFO [0;39m] [http-nio-8080-exec-10] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 16:59:17 [32mINFO [0;39m] [http-nio-8080-exec-10] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@5d2b3a19[0;39m
+[2023-12-13 16:59:17 [32mINFO [0;39m] [http-nio-8080-exec-10] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-13 16:59:38 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-13 16:59:38 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 16:59:41 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10920 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 16:59:41 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 16:59:41 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 16:59:41 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 794 ms[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.652 seconds (process running for 2.019)[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 16:59:42 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 16:59:43 [32mINFO [0;39m] [http-nio-8080-exec-9] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 161 ms[0;39m
+[2023-12-13 16:59:55 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 16:59:55 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@4e7f53f[0;39m
+[2023-12-13 16:59:55 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2023-12-13 17:03:33 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2023-12-13 17:03:33 [32mINFO [0;39m] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2023-12-13 17:03:36 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 9328 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:03:36 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:03:36 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:03:36 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 709 ms[0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:03:37 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.521 seconds (process running for 1.889)[0;39m
+[2023-12-13 17:04:14 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:04:14 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:04:14 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:04:15 [32mINFO [0;39m] [http-nio-8080-exec-8] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 153 ms[0;39m
+[2023-12-13 17:05:52 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 10072 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:05:52 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:05:52 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:05:52 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 711 ms[0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:05:53 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.524 seconds (process running for 1.884)[0;39m
+[2023-12-13 17:05:55 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:05:55 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:05:55 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:05:55 [32mINFO [0;39m] [http-nio-8080-exec-4] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 152 ms[0;39m
+[2023-12-13 17:08:58 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 3172 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:08:58 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:08:58 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:08:58 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:08:59 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:08:59 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:08:59 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:08:59 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:08:59 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:08:59 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 705 ms[0;39m
+[2023-12-13 17:09:00 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:09:00 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:09:00 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:09:00 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.514 seconds (process running for 1.872)[0;39m
+[2023-12-13 17:09:16 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 1576 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:09:16 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:09:16 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:09:16 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 840 ms[0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:09:17 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.72 seconds (process running for 2.078)[0;39m
+[2023-12-13 17:09:20 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:09:20 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:09:20 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:09:20 [32mINFO [0;39m] [http-nio-8080-exec-8] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 158 ms[0;39m
+[2023-12-13 17:34:34 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 288 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:34:34 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:34:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:34:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 714 ms[0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:34:35 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.53 seconds (process running for 1.906)[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 288 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 174 ms[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.314 seconds (process running for 58.832)[0;39m
+[2023-12-13 17:35:32 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 17:39:13 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 3616 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:39:13 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:39:13 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:39:13 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 716 ms[0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:39:14 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.537 seconds (process running for 1.919)[0;39m
+[2023-12-13 17:39:16 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:39:16 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:39:16 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:39:17 [32mINFO [0;39m] [http-nio-8080-exec-10] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 159 ms[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 3616 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 174 ms[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.292 seconds (process running for 78.018)[0;39m
+[2023-12-13 17:40:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 17:40:32 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:40:32 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:40:32 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 17:40:59 [32mINFO [0;39m] [http-nio-8080-exec-7] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 23 ms[0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 3304 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:41:33 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:41:34 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:41:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 730 ms[0;39m
+[2023-12-13 17:41:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:41:34 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:41:34 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:41:34 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.569 seconds (process running for 1.946)[0;39m
+[2023-12-13 17:41:35 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:41:35 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:41:35 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 17:41:35 [32mINFO [0;39m] [http-nio-8080-exec-6] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 159 ms[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 3304 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 166 ms[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.301 seconds (process running for 171.85)[0;39m
+[2023-12-13 17:44:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 17:46:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 9672 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:46:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:46:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:46:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 706 ms[0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:46:31 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.519 seconds (process running for 1.887)[0;39m
+[2023-12-13 17:46:35 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:46:35 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:46:35 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 17:46:36 [32mINFO [0;39m] [http-nio-8080-exec-10] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 155 ms[0;39m
+[2023-12-13 17:51:41 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 9820 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:51:41 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:51:41 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:51:41 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 728 ms[0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:51:42 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.554 seconds (process running for 1.914)[0;39m
+[2023-12-13 17:51:45 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:51:45 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:51:45 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:51:45 [32mINFO [0;39m] [http-nio-8080-exec-2] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 157 ms[0;39m
+[2023-12-13 17:54:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 1660 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:54:30 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:54:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:54:30 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 704 ms[0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:54:31 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.514 seconds (process running for 1.879)[0;39m
+[2023-12-13 17:54:36 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:54:36 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:54:36 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:54:37 [32mINFO [0;39m] [http-nio-8080-exec-8] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 161 ms[0;39m
+[2023-12-13 17:55:22 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 292 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:55:22 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:55:22 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:55:22 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:55:23 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:55:23 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:55:23 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:55:23 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:55:23 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:55:23 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 716 ms[0;39m
+[2023-12-13 17:55:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:55:24 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:55:24 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:55:24 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.522 seconds (process running for 1.888)[0;39m
+[2023-12-13 17:55:26 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:55:26 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:55:26 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:55:26 [32mINFO [0;39m] [http-nio-8080-exec-9] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 153 ms[0;39m
+[2023-12-13 17:56:48 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 1252 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:56:48 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:56:48 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:56:48 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 717 ms[0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:56:49 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.539 seconds (process running for 1.919)[0;39m
+[2023-12-13 17:56:57 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:56:57 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:56:57 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 17:56:57 [32mINFO [0;39m] [http-nio-8080-exec-2] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 161 ms[0;39m
+[2023-12-13 17:59:50 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 9532 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 17:59:50 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 17:59:50 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 17:59:50 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 724 ms[0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 17:59:51 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.552 seconds (process running for 1.945)[0;39m
+[2023-12-13 17:59:54 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:59:54 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 17:59:54 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 17:59:54 [32mINFO [0;39m] [http-nio-8080-exec-8] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 154 ms[0;39m
+[2023-12-13 18:00:55 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 9240 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 18:00:55 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 18:00:55 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 18:00:55 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 709 ms[0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 18:00:56 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.551 seconds (process running for 1.906)[0;39m
+[2023-12-13 18:00:58 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 18:00:58 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 18:00:58 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2023-12-13 18:00:58 [32mINFO [0;39m] [http-nio-8080-exec-8] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 161 ms[0;39m
+[2023-12-13 18:03:57 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 6948 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 18:03:57 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 18:03:57 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2023-12-13 18:03:57 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 719 ms[0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 18:03:58 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 1.547 seconds (process running for 1.908)[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarting Application using Java 17.0.8.1 with PID 6948 (D:\1st_project_test\target\classes started by Administrator in D:\1st_project_test)[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.16][0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 176 ms[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [com.project.test.Application] [36mStarted Application in 0.314 seconds (process running for 10.794)[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2023-12-13 18:04:07 [32mINFO [0;39m] [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2023-12-13 18:04:08 [32mINFO [0;39m] [http-nio-8080-exec-4] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 154 ms[0;39m
+[2023-12-13 18:04:16 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.project.test.product.ProductController] [36mselDto : ProductSelDto(userPk=1, choiceList=0, selectDate=string)[0;39m
+[2023-12-13 18:04:16 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2023-12-13 18:04:16 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@37593429[0;39m
+[2023-12-13 18:04:16 [32mINFO [0;39m] [http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m

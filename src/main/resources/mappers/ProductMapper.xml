@@ -18,14 +18,19 @@
         JOIN t_category B
         ON A.category_pk = B.category_pk
         WHERE A.user_pk = #{userPk}
-        <if test="choiceList == 0">
-            AND A.buying_check IN (0,1)
-        </if>
-        <if test="choiceList == 1">
-            AND A.buying_check = 0
-        </if>
-        <if test="choiceList == 2">
-            AND A.buying_check = 1
+        <choose>
+            <when test="choiceList == 0">
+                AND A.buying_check IN (0,1)
+            </when>
+            <when test="choiceList == 1">
+                AND A.buying_check = 0
+            </when>
+            <when test="choiceList == 2">
+                AND A.buying_check = 1
+            </when>
+        </choose>
+        <if test="selectDate != null and selectDate != ''">
+            AND date(A.created_at) = #{selectDate}
         </if>
     </select>
     <!--/구매예정 상품 유저pk 기준으로 모두 불러오기-->
@@ -39,9 +44,6 @@
         <if test="memo != null and memo != '' ">
             ,memo = #{memo}
         </if>
-        <if test="productCount > 1">
-            ,product_count = #{productCount}
-        </if>
     </insert>
     <!--/구매예정 상품 추가-->
 
@@ -51,7 +53,6 @@
         SET category_pk = #{categoryPk}
             ,product_nm = #{productNm}
             ,memo = #{memo}
-            ,product_count = #{productCount}
         WHERE user_pk = #{userPk}
     </update>
     <!--/구매예정 상품 수정-->

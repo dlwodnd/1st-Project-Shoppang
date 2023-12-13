@@ -17,4 +17,5 @@ public interface ProductMapper {
     int delProduct(List<Integer> productPkList);
     int hiedProduct(List<Integer> productPkList);
 
+
 }

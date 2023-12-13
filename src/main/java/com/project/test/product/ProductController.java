@@ -24,7 +24,7 @@ public class ProductController {
 
     @GetMapping
     @Parameters(value = {@Parameter(name = "user_pk", description = "유저 pk값")
-                        ,@Parameter(name = "choice_list" , description = "장바구니 표시 설정" + "1 : 구매예정 상품만 보기\n" + "2 : 구매확정 상품만 보기")})
+                        ,@Parameter(name = "choice_list" , description = "장바구니 표시 설정" + "1 : 구매예정 상품만 보기" + "2 : 구매확정 상품만 보기")})
 
     @Operation(summary = "구매예정 상품 목록",description = "구매예정 상품 목록")
     public List<ProductSelVo> getProductAll(@RequestParam("user_pk")int userPk
@@ -54,5 +54,7 @@ public class ProductController {
     public ResVo deleteProduct(@RequestParam("product_pk")List<Integer> productPkList){
         return PRODUCT_SERVICE.delProduct(productPkList);
     }
+
+
 
 }

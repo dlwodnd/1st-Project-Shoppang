@@ -14,4 +14,9 @@
         FROM t_user
         WHERE uid = #{uid}
     </select>
+    <select id="checkUserPk">
+        SELECT *
+        FROM t_user
+        WHERE user_pk = #{userPK}
+    </select>
 </mapper>

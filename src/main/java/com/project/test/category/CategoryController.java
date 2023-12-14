@@ -17,7 +17,7 @@ import java.util.List;
 public class CategoryController {
     private final CategoryService CATEGORY_SERVICE;
 
-    @GetMapping("/category")
+    @GetMapping()
     @Operation(summary = "카테고리 가져오기",description = "카테고리 pk값과 이름을 정보.")
     public List<CategoryEntity> getCategoryAll (){
         return CATEGORY_SERVICE.getCategoryAll();

@@ -52,7 +52,9 @@
         UPDATE t_purchase_product
         SET category_pk = #{categoryPk}
             ,product_nm = #{productNm}
+        <if test="memo != null and memo != '' ">
             ,memo = #{memo}
+        </if>
         WHERE user_pk = #{userPk}
     </update>
     <!--/구매예정 상품 수정-->
@@ -88,6 +90,31 @@
         AND buying_check = 1
     </update>
     <!--/구매확정 상품 리스트에서 숨기기 처리-->
+    <select id="checkProductPk">
+        SELECT product_pk AS productPk
+            ,user_pk AS userPk
+            ,category_pk AS categoryPk
+            ,product_nm AS productNm
+            ,created_at AS createdAt
+            ,buying_check AS buyingCheck
+            ,buyind_date AS buyingDate
+        FROM t_purchase_product
+        WHERE product_pk = #{productPk}
+    </select>
+    <select id="checkProductPkList">
+        SELECT product_pk AS productPk
+            ,user_pk AS userPk
+            ,category_pk AS categoryPk
+            ,product_nm AS productNm
+            ,created_at AS createdAt
+            ,buying_check AS buyingCheck
+            ,buying_date AS buyingDate
+        FROM t_purchase_product
+        WHERE product_pk IN
+        <foreach collection="productPkList" item="productPk" open="(" separator="," close=")">
+            #{productPk}
+        </foreach>
+    </select>
 
 
 </mapper>

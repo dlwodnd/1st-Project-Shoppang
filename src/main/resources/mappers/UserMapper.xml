@@ -14,9 +14,12 @@
         FROM t_user
         WHERE uid = #{uid}
     </select>
+
+    <!--받아온 유저 pk값 체크-->
     <select id="checkUserPk">
-        SELECT *
+        SELECT uid, upw, nm
         FROM t_user
         WHERE user_pk = #{userPK}
     </select>
+    <!--받아온 유저 pk값 체크-->
 </mapper>

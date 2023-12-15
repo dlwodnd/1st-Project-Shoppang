@@ -1,5 +1,6 @@
 package com.project.test.exceptions;
 
+import com.project.test.product.models.entity.ProductEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -8,6 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @RestController
@@ -19,13 +22,13 @@ public class TestResponseEntityExceptionHandler extends ResponseEntityExceptionH
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request){
         ExcpetionResponse excpetionResponse
-                = new ExcpetionResponse(new Date(),ex.getMessage(),request.getDescription(false));
+                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false),null);
         return new ResponseEntity(excpetionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
     @ExceptionHandler(PurchaseProductException.class)
-    public final ResponseEntity<Object> handlePkNotFoundExceptions(Exception ex, WebRequest request){
+    public final ResponseEntity<Object> handleCustomExceptions(PurchaseProductException ex, WebRequest request){
         ExcpetionResponse excpetionResponse
-                = new ExcpetionResponse(new Date(),ex.getMessage(),request.getDescription(false));
+                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false),ex.getErrorCode());
         return new ResponseEntity(excpetionResponse, HttpStatus.NOT_FOUND);
     }
 

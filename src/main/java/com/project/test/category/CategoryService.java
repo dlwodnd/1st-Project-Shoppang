@@ -1,7 +1,9 @@
 package com.project.test.category;
 
 import com.project.test.category.mapper.CategoryMapper;
+import com.project.test.category.models.dto.CategoryInsDto;
 import com.project.test.category.models.entity.CategoryEntity;
+import com.project.test.common.ResVo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -15,5 +17,9 @@ public class CategoryService {
     //카테고리 불러오기
     public List<CategoryEntity> getCategoryAll (){
         return CATEGORY_MAPPER.getCategory();
+    }
+    public ResVo insCategory(CategoryInsDto dto){
+        int result = CATEGORY_MAPPER.insCategory(dto);
+        return new ResVo(result);
     }
 }

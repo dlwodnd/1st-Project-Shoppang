@@ -52,9 +52,14 @@
         UPDATE t_purchase_product
         SET category_pk = #{categoryPk}
             ,product_nm = #{productNm}
-        <if test="memo != null and memo != '' ">
-            ,memo = #{memo}
-        </if>
+        <choose>
+            <when test="memo != null and memo != '' ">
+                ,memo = #{memo}
+            </when>
+            <otherwise>
+                ,memo = NULL
+            </otherwise>
+        </choose>
         WHERE user_pk = #{userPk}
     </update>
     <!--/구매예정 상품 수정-->
@@ -90,6 +95,9 @@
         AND buying_check = 1
     </update>
     <!--/구매확정 상품 리스트에서 숨기기 처리-->
+
+
+    <!--받은 pk값이 테이블에 있는 값인지 확인-->
     <select id="checkProductPk">
         SELECT product_pk AS productPk
             ,user_pk AS userPk
@@ -97,10 +105,14 @@
             ,product_nm AS productNm
             ,created_at AS createdAt
             ,buying_check AS buyingCheck
-            ,buyind_date AS buyingDate
+            ,buying_date AS buyingDate
         FROM t_purchase_product
         WHERE product_pk = #{productPk}
     </select>
+    <!--받은 pk값이 테이블에 있는 값인지 확인-->
+
+
+    <!--받은 pk값들이 테이블에 있는 값인지 확인-->
     <select id="checkProductPkList">
         SELECT product_pk AS productPk
             ,user_pk AS userPk
@@ -115,6 +127,7 @@
             #{productPk}
         </foreach>
     </select>
+    <!--받은 pk값들이 테이블에 있는 값인지 확인-->
 
 
 </mapper>

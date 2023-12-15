@@ -11,6 +11,6 @@ public class ProductSelDto {
     private int userPk;
     @Schema(description = "구매예정 상품 필터링. Default = 0. 0 : 모두보기, 1 : 구매예정 상품만 보기, 2 : 구매확정 상품만 보기",defaultValue = "0")
     private int choiceList;
-    @Schema(description = "보고싶은 날짜 정보.입력방식 : yyyy-mm-dd",defaultValue = "2023-12-14")
+    @Schema(description = "보고싶은 날짜 정보.입력방식 : yyyy-mm-dd",defaultValue = "yyyy-mm-dd")
     private String selectDate;
 }

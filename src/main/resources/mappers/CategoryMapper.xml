@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.project.test.category.mapper.CategoryMapper">
+<mapper namespace="com.project.test.category.CategoryMapper">
     <!--카테고리 pk값, 이름 불러오기-->
     <select id="getCategory">
         SELECT category_pk as categoryPk

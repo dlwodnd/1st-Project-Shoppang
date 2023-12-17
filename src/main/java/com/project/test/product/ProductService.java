@@ -1,21 +1,20 @@
 package com.project.test.product;
 
-import com.project.test.category.mapper.CategoryMapper;
-import com.project.test.category.models.entity.CategoryEntity;
+import com.project.test.category.CategoryMapper;
+import com.project.test.common.entity.CategoryEntity;
 import com.project.test.common.Const;
 import com.project.test.common.ResVo;
 import com.project.test.exceptions.PurchaseProductException;
-import com.project.test.product.mapper.ProductMapper;
 import com.project.test.product.models.dto.ProductInsDto;
 import com.project.test.product.models.dto.ProductSelDto;
 import com.project.test.product.models.dto.ProductUpdDto;
-import com.project.test.product.models.entity.ProductEntity;
+import com.project.test.common.entity.ProductEntity;
 import com.project.test.product.models.vo.ProductSelVo;
-import com.project.test.user.mapper.UserMapper;
+import com.project.test.user.UserMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 
 

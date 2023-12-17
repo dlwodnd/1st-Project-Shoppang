@@ -1,6 +1,5 @@
 package com.project.test.exceptions;
 
-import com.project.test.product.models.entity.ProductEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -9,9 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @RestController
 @ControllerAdvice // 전역에 발생할 수 있는 예외를 처리해줌

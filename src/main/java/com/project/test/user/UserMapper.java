@@ -1,8 +1,8 @@
-package com.project.test.user.mapper;
+package com.project.test.user;
 
 import com.project.test.user.models.dto.UserInsDto;
 import com.project.test.user.models.dto.UserSigninDto;
-import com.project.test.user.models.entity.UserInfoEntity;
+import com.project.test.common.entity.UserInfoEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

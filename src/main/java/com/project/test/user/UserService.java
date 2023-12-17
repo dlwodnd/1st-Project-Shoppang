@@ -1,7 +1,6 @@
 package com.project.test.user;
 
 import com.project.test.common.ResVo;
-import com.project.test.user.mapper.UserMapper;
 import com.project.test.user.models.dto.UserInsDto;
 import com.project.test.user.models.dto.UserSigninDto;
 import lombok.RequiredArgsConstructor;

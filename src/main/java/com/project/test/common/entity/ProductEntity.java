@@ -1,4 +1,4 @@
-package com.project.test.product.models.entity;
+package com.project.test.common.entity;
 
 import lombok.Data;
 

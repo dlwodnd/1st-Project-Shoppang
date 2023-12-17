@@ -1,8 +1,7 @@
 package com.project.test.category;
 
-import com.project.test.category.mapper.CategoryMapper;
 import com.project.test.category.models.dto.CategoryInsDto;
-import com.project.test.category.models.entity.CategoryEntity;
+import com.project.test.common.entity.CategoryEntity;
 import com.project.test.common.ResVo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

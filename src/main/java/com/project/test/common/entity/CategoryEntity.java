@@ -1,4 +1,4 @@
-package com.project.test.category.models.entity;
+package com.project.test.common.entity;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;

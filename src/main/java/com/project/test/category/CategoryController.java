@@ -1,7 +1,7 @@
 package com.project.test.category;
 
 import com.project.test.category.models.dto.CategoryInsDto;
-import com.project.test.category.models.entity.CategoryEntity;
+import com.project.test.common.entity.CategoryEntity;
 import com.project.test.common.ResVo;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;

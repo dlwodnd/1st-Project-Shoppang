@@ -15,5 +15,4 @@ public class ExcpetionResponse {
     private LocalDateTime localDate;
     private String message;
     private String details;
-    private String errorCode;
 }

@@ -19,13 +19,13 @@ public class TestResponseEntityExceptionHandler extends ResponseEntityExceptionH
     @ExceptionHandler(Exception.class)
     public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request){
         ExcpetionResponse excpetionResponse
-                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false),null);
+                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false));
         return new ResponseEntity(excpetionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
     @ExceptionHandler(PurchaseProductException.class)
     public final ResponseEntity<Object> handleCustomExceptions(PurchaseProductException ex, WebRequest request){
         ExcpetionResponse excpetionResponse
-                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false),ex.getErrorCode());
+                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false));
         return new ResponseEntity(excpetionResponse, HttpStatus.NOT_FOUND);
     }
 

@@ -76,11 +76,9 @@
     <!--구매예정 상품 삭제처리-->
     <delete id="delProduct">
         DELETE FROM t_purchase_product
-        WHERE product_pk IN
-        <foreach collection="productPkList" item="productPk" open="(" close=")" separator=",">
-            #{productPk}
-        </foreach>
+        WHERE product_pk = #{productPk}
         AND buying_check = 0
+        AND user_pk = #{user_pk}
     </delete>
     <!--/구매예정 상품 삭제처리-->
 
@@ -88,11 +86,9 @@
     <update id="hiedProduct">
         UPDATE t_purchase_product
         SET buying_check = 2
-        WHERE product_pk IN
-        <foreach collection="productPkList" item="productPk" open="(" close=")" separator=",">
-            #{productPk}
-        </foreach>
+        WHERE product_pk = #{productPk}
         AND buying_check = 1
+        AND user_pk = #{user_pk}
     </update>
     <!--/구매확정 상품 리스트에서 숨기기 처리-->
 
@@ -110,24 +106,4 @@
         WHERE product_pk = #{productPk}
     </select>
     <!--받은 pk값이 테이블에 있는 값인지 확인-->
-
-
-    <!--받은 pk값들이 테이블에 있는 값인지 확인-->
-    <select id="checkProductPkList">
-        SELECT product_pk AS productPk
-            ,user_pk AS userPk
-            ,category_pk AS categoryPk
-            ,product_nm AS productNm
-            ,created_at AS createdAt
-            ,buying_check AS buyingCheck
-            ,buying_date AS buyingDate
-        FROM t_purchase_product
-        WHERE product_pk IN
-        <foreach collection="productPkList" item="productPk" open="(" separator="," close=")">
-            #{productPk}
-        </foreach>
-    </select>
-    <!--받은 pk값들이 테이블에 있는 값인지 확인-->
-
-
 </mapper>

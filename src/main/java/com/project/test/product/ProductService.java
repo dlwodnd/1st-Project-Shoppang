@@ -5,9 +5,7 @@ import com.project.test.common.entity.CategoryEntity;
 import com.project.test.common.Const;
 import com.project.test.common.ResVo;
 import com.project.test.exceptions.PurchaseProductException;
-import com.project.test.product.models.dto.ProductInsDto;
-import com.project.test.product.models.dto.ProductSelDto;
-import com.project.test.product.models.dto.ProductUpdDto;
+import com.project.test.product.models.dto.*;
 import com.project.test.common.entity.ProductEntity;
 import com.project.test.product.models.vo.ProductSelVo;
 import com.project.test.user.UserMapper;
@@ -41,15 +39,15 @@ public class ProductService {
         String checkProductNm = dto.getProductNm().replaceAll(" ","");
         CategoryEntity category = CATEGORY_MAPPER.checkCategory(dto.getCategoryPk());
         if(USER_MAPPER.checkUserPk(dto.getUserPk()) == null){
-            //입력받은 userPk값이 없는 값이라면 UNKNOWN_PK=(3)으로 리턴
+            //입력받은 userPk값이 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 userPK 값이 입력되었습니다.");
         }
         else if (checkProductNm.isEmpty()){
-            //입력받은 productNm 값이 공백제외 길이가 0 이라면 BLANK=(4)로 리턴
+            //입력받은 productNm 값이 공백제외 길이가 0이라면
             throw new PurchaseProductException("productNm 값은 필수 입력값입니다.");
         }
         else if(category == null){
-            //입력받은 categoryPk값이 없는 값이라면 UNKNOWN_PK=(3)으로 리턴
+            //입력받은 categoryPk값이 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 categoryPK 값이 입력되었습니다.");
         }
         if(dto.getMemo().replaceAll(" ", "").isEmpty()){
@@ -64,15 +62,15 @@ public class ProductService {
         String checkProductNm = dto.getProductNm().replaceAll(" ","");
         CategoryEntity category = CATEGORY_MAPPER.checkCategory(dto.getCategoryPk());
         if(dto.getUserPk() < 1){
-            //입력받은 userPk값이 없는 값이라면 UNKNOWN_PK=(3)으로 리턴
+            //입력받은 userPk값이 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 userPK 값이 입력되었습니다.");
         }
         else if (checkProductNm.isEmpty()){
-            //입력받은 productNm 값이 공백제외 길이가 0 이라면 BLANK=(4)로 리턴
+            //입력받은 productNm 값이 공백제외 길이가 0 이라면 예외처리
             throw new PurchaseProductException("productNm 값은 필수 입력값입니다.");
         }
         else if(category == null){
-            //입력받은 categoryPk값이 없는 값이라면 UNKNOWN_PK=(3)으로 리턴
+            //입력받은 categoryPk값이 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 categoryPK 값이 입력되었습니다.");
         }
         if(dto.getMemo().replaceAll(" ", "").isEmpty()){
@@ -83,38 +81,39 @@ public class ProductService {
         return new ResVo(result);
     }
     //구매예정 상품 구매확정 처리
-    public ResVo checkProduct(int productPk){
-        ProductEntity productEntity = PRODUCT_MAPPER.checkProductPk(productPk);
+    public ResVo checkProduct(ProductCheckDto dto){
+        ProductEntity productEntity = PRODUCT_MAPPER.checkProductPk(dto.getProductPk());
         if(productEntity == null){
-            //입력받은 productPk 값이 DB에 없는 값이라면 UNKNOWN_PK=(3)으로 리턴
+            //입력받은 productPk 값이 DB에 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 productPk값을 입력했습니다.");
-        }else if(productEntity.getBuyingCheck() == 1 || productEntity.getBuyingCheck() == 2){
-            //입력된 productPk값에서 나온 buyingCheck 값이 이미 구매 완료 처리를 했거나 숨김 상태라명 FAIL
-            throw new PurchaseProductException("이미 구매 확정된 productPk 입니다.");
+        } else if (productEntity.getUserPk() != dto.getUserPk()) {
+            //입력받은 productPK 값이 userPk가 작성한 값이 아니라면 예외처리
+            throw new PurchaseProductException("입력한 productPK값은 다른 유저의 값 입니다.");
+        } else if(productEntity.getBuyingCheck() == 1 || productEntity.getBuyingCheck() == 2){
+            //입력된 productPk값에서 나온 buyingCheck 값이 이미 구매 완료 처리를 했거나 숨김 상태라면 예외처리
+            throw new PurchaseProductException("이미 구매 확정된 productPk값 입니다.");
         }
-        int result = PRODUCT_MAPPER.checkProduct(productPk);
+        int result = PRODUCT_MAPPER.checkProduct(dto);
         return new ResVo(result);
     }
     //구매예정(확정) 상품 리스트에서 삭제
     //구매예정 상품은 데이터 삭제
     //구매확정 상품은 데이터는 보존, 리스트에서 숨김 처리
-    public ResVo delProduct(List<Integer> productPkList){
-        List<ProductEntity> productEntity = PRODUCT_MAPPER.checkProductPkList(productPkList);
+    public ResVo delProduct(ProductDelDto dto){
+        ProductEntity productEntity = PRODUCT_MAPPER.checkProductPk(dto.getProductPk());
         log.info("productEntity : {}",productEntity);
-        if(productEntity.size() != productPkList.size()){
-            //productPkList안에 잘못된 productPk값이 있는지 확인
-            throw new PurchaseProductException("잘못된 productPk값을 입력했습니다.");
+
+        if(productEntity == null){
+            //userPk 값이나 productPk 값이 잘못 되었을 때 예외처리
+            throw new PurchaseProductException("잘못된 pk값을 입력했습니다.");
         }
-        for(ProductEntity entity : productEntity){
-            if(entity == null){
-                //productPkList의 productPk 값이 테이블에 있는 값인지 확인
-                throw new PurchaseProductException("잘못된 productPk값을 입력했습니다.");
-            }else if(entity.getBuyingCheck() < 0 || entity.getBuyingCheck() > 1){
-                throw new PurchaseProductException("이미 삭제처리된 productPk값을 포함하고 있습니다.");
-            }
+        else if(productEntity.getUserPk() != dto.getUserPk()){
+            //입력받은 productPK 값이 userPk가 작성한 값이 아니라면 예외처리
+            throw new PurchaseProductException("입력받은 productPk값은 다른 유저가 작성한 productPk값입니다.");
         }
-        PRODUCT_MAPPER.hiedProduct(productPkList);
-        PRODUCT_MAPPER.delProduct(productPkList);
+
+        PRODUCT_MAPPER.hiedProduct(dto);
+        PRODUCT_MAPPER.delProduct(dto);
         return new ResVo(Const.SUCCESS);
     }
 

@@ -14,3 +14,4 @@ springdoc:
     path: /swagger.html
 server:
   port: 8082
+

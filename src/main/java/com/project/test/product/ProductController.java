@@ -3,9 +3,7 @@ package com.project.test.product;
 import com.project.test.common.Const;
 import com.project.test.common.ResVo;
 import com.project.test.exceptions.PurchaseProductException;
-import com.project.test.product.models.dto.ProductInsDto;
-import com.project.test.product.models.dto.ProductSelDto;
-import com.project.test.product.models.dto.ProductUpdDto;
+import com.project.test.product.models.dto.*;
 import com.project.test.product.models.vo.ProductSelVo;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -51,16 +49,18 @@ public class ProductController {
     }
     @PatchMapping
     @Operation(summary = "구매확정",description = "구매확정")
-    @Parameter(name = "productPk", description = "구매예정 상품 pk값.")
-    public ResVo checkProduct(@RequestParam("productPk")int productPk){
-        ResVo result = PRODUCT_SERVICE.checkProduct(productPk);
+    @Parameters(value = {@Parameter(name = "userPk",description = "유저pk값",required = true),
+                         @Parameter(name = "productPk",description = "구매예정 상품pk값",required = true)})
+    public ResVo checkProduct(ProductCheckDto dto){
+        ResVo result = PRODUCT_SERVICE.checkProduct(dto);
         return result;
     }
     @DeleteMapping
-    @Operation(summary = "구매예정 상품 삭제",description = "구매예정 리스트에서 삭제")
-    @Parameter(name = "productPk", description = "삭제할 상품 pk값.<br>" + "pk값 1개이상 입력 가능.")
-    public ResVo deleteProduct(@RequestParam("productPk")List<Integer> productPkList){
-        ResVo result = PRODUCT_SERVICE.delProduct(productPkList);
+    @Operation(summary = "구매예정 상품 삭제",description = "구매예정 리스트에서 삭제.")
+    @Parameters(value = {@Parameter(name = "userPk",description = "유저pk값",required = true),
+                        @Parameter(name = "productPk",description = "구매예정 상품pk값",required = true)})
+    public ResVo deleteProduct(ProductDelDto dto){
+        ResVo result = PRODUCT_SERVICE.delProduct(dto);
         return result;
     }
 

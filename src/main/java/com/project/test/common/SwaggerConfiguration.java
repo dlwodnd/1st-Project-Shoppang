@@ -15,7 +15,7 @@ public class SwaggerConfiguration {
                 .info(new Info()
                         .title("ShoppingList")
                         .description("1차 프로젝트 Alpha")
-                        .version("1.0.1a")
+                        .version("1.0.2a")
                 );
     }
 }

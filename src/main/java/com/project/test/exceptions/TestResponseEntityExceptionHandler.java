@@ -17,16 +17,19 @@ public class TestResponseEntityExceptionHandler extends ResponseEntityExceptionH
     //모든 예외를 처리하는 메소드
     //Bean 내에서 발생하는 예외를 처리
     @ExceptionHandler(Exception.class)
-    public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request){
-        ExcpetionResponse excpetionResponse
-                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false));
-        return new ResponseEntity(excpetionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
+    public final ResponseEntity<Object> handleAllExceptions(Exception ex,WebRequest request){
+        ExcepetionResponse excepetionResponse
+                = new ExcepetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false));
+        return new ResponseEntity(excepetionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
     @ExceptionHandler(PurchaseProductException.class)
-    public final ResponseEntity<Object> handleCustomExceptions(PurchaseProductException ex, WebRequest request){
-        ExcpetionResponse excpetionResponse
-                = new ExcpetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false));
-        return new ResponseEntity(excpetionResponse, HttpStatus.NOT_FOUND);
+    public final ResponseEntity<Object> handleCustomExceptions(PurchaseProductException ex,WebRequest request){
+        ExcepetionResponse excepetionResponse
+                = new ExcepetionResponse(LocalDateTime.now(),ex.getMessage(),request.getDescription(false));
+        return new ResponseEntity(excepetionResponse, HttpStatus.BAD_REQUEST);
     }
+
+
+
 
 }

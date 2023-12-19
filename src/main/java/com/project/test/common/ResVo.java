@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Getter
 @AllArgsConstructor
-@Schema(name = "성공/실패 확인")
 public class ResVo {
-    @Schema(description = "성공 = 1, 실패 = 0")
     private int result;
 }

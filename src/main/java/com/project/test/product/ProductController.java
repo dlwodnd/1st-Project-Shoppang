@@ -24,8 +24,7 @@ public class ProductController {
 
     @GetMapping
     @Parameters(value = {@Parameter(name = "userPk", description = "유저 pk값",required = true)
-                        ,@Parameter(name = "choiceList" , description = "장바구니 표시 설정.<br>" +"0 : 모든 상품 보기.(디폴트값)<br>"+ "1 : 구매예정 상품만 보기.<br>" + "2 : 구매확정 상품만 보기.<br>",required = true)
-                        ,@Parameter(name = "selectDate", description = "보고 싶은 날짜 선택.<br> 입력방식 : yyyy-mm-dd ",allowEmptyValue = true)})
+                        ,@Parameter(name = "choiceList" , description = "장바구니 표시 설정.<br>" +"0 : 모든 상품 보기.(디폴트값)<br>"+ "1 : 구매예정 상품만 보기.<br>" + "2 : 구매확정 상품만 보기.<br>",required = true)})
     @Operation(summary = "구매예정 상품 목록",description = "구매예정 상품 목록.")
     public List<ProductSelVo> getProductAll(ProductSelDto dto){
         log.info("selDto : {}",dto);

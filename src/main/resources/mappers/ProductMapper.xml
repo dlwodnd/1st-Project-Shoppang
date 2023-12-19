@@ -29,9 +29,7 @@
                 AND A.buying_check = 1
             </when>
         </choose>
-        <if test="selectDate != null and selectDate != ''">
-            AND date(A.created_at) = #{selectDate}
-        </if>
+
     </select>
     <!--/구매예정 상품 유저pk 기준으로 모두 불러오기-->
 

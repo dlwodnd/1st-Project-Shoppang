@@ -77,7 +77,7 @@
         DELETE FROM t_purchase_product
         WHERE product_pk = #{productPk}
         AND buying_check = 0
-        AND user_pk = #{user_pk}
+        AND user_pk = #{userPk}
     </delete>
     <!--/구매예정 상품 삭제처리-->
 
@@ -87,7 +87,7 @@
         SET buying_check = 2
         WHERE product_pk = #{productPk}
         AND buying_check = 1
-        AND user_pk = #{user_pk}
+        AND user_pk = #{userPk}
     </update>
     <!--/구매확정 상품 리스트에서 숨기기 처리-->
 

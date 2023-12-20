@@ -44,7 +44,7 @@ public class ProductService {
         }
         else if (checkProductNm.isEmpty()){
             //입력받은 productNm 값이 공백제외 길이가 0이라면
-            throw new PurchaseProductException("productNm 값은 필수 입력값입니다.");
+            throw new PurchaseProductException("productNm은 필수 입력값입니다.");
         }
         else if(category == null){
             //입력받은 categoryPk값이 없는 값이라면 예외처리
@@ -67,7 +67,7 @@ public class ProductService {
         }
         else if (checkProductNm.isEmpty()){
             //입력받은 productNm 값이 공백제외 길이가 0 이라면 예외처리
-            throw new PurchaseProductException("productNm 값은 필수 입력값입니다.");
+            throw new PurchaseProductException("productNm은 필수 입력값입니다.");
         }
         else if(category == null){
             //입력받은 categoryPk값이 없는 값이라면 예외처리
@@ -88,7 +88,7 @@ public class ProductService {
             throw new PurchaseProductException("잘못된 productPk값을 입력했습니다.");
         } else if (productEntity.getUserPk() != dto.getUserPk()) {
             //입력받은 productPK 값이 userPk가 작성한 값이 아니라면 예외처리
-            throw new PurchaseProductException("입력한 productPK값은 다른 유저의 값 입니다.");
+            throw new PurchaseProductException("입력한 productPk값은 다른 유저의 값 입니다.");
         } else if(productEntity.getBuyingCheck() == 1 || productEntity.getBuyingCheck() == 2){
             //입력된 productPk값에서 나온 buyingCheck 값이 이미 구매 완료 처리를 했거나 숨김 상태라면 예외처리
             throw new PurchaseProductException("이미 구매 확정된 productPk값 입니다.");
@@ -103,13 +103,12 @@ public class ProductService {
         ProductEntity productEntity = PRODUCT_MAPPER.checkProductPk(dto.getProductPk());
         log.info("productEntity : {}",productEntity);
 
-        if(productEntity == null){
-            //userPk 값이나 productPk 값이 잘못 되었을 때 예외처리
-            throw new PurchaseProductException("잘못된 pk값을 입력했습니다.");
-        }
-        else if(productEntity.getUserPk() != dto.getUserPk()){
+        if(productEntity.getUserPk() != dto.getUserPk()){
             //입력받은 productPK 값이 userPk가 작성한 값이 아니라면 예외처리
             throw new PurchaseProductException("입력받은 productPk값은 다른 유저가 작성한 productPk값입니다.");
+        }
+        else if(productEntity.getBuyingCheck() == 2){
+            throw new PurchaseProductException("잘못된 productPk값을 입력했습니다.");
         }
 
         PRODUCT_MAPPER.hiedProduct(dto);

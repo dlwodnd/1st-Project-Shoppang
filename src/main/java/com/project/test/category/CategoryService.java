@@ -14,10 +14,11 @@ public class CategoryService {
     private final CategoryMapper CATEGORY_MAPPER;
 
     //카테고리 불러오기
-    public List<CategoryEntity> getCategoryAll (){
+    public List<CategoryEntity> getCategoryAll() {
         return CATEGORY_MAPPER.getCategory();
     }
-    public ResVo insCategory(CategoryInsDto dto){
+
+    public ResVo insCategory(CategoryInsDto dto) {
         int result = CATEGORY_MAPPER.insCategory(dto);
         return new ResVo(result);
     }

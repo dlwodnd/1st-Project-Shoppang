@@ -17,13 +17,14 @@ public class UserController {
     private final UserService USER_SERVICE;
 
     @PostMapping("/signup")
-    @Operation(summary = "유저 회원가입",description = "유저 회원가입.")
-    public ResVo userSignup(@RequestBody UserInsDto dto){
+    @Operation(summary = "유저 회원가입", description = "유저 회원가입.")
+    public ResVo userSignup(@RequestBody UserInsDto dto) {
         return USER_SERVICE.userSignup(dto);
     }
+
     @PostMapping("/signin")
-    @Operation(summary = "유저 로그인",description = "유저 로그인.")
-    public ResVo userSignin(@RequestBody UserSigninDto dto){
+    @Operation(summary = "유저 로그인", description = "유저 로그인.")
+    public ResVo userSignin(@RequestBody UserSigninDto dto) {
         return USER_SERVICE.userSignin(dto);
     }
 

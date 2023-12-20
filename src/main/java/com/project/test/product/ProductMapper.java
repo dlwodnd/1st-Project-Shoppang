@@ -10,13 +10,18 @@ import java.util.List;
 @Mapper
 public interface ProductMapper {
     List<ProductSelVo> selProductList(ProductSelDto dto);
-    int insProduct(ProductInsDto dto);
-    int updProduct(ProductUpdDto dto);
-    int checkProduct(ProductCheckDto dto);
-    int delProduct(ProductDelDto dto);
-    int hiedProduct(ProductDelDto dto);
-    ProductEntity checkProductPk(int productPk);
 
+    int insProduct(ProductInsDto dto);
+
+    int updProduct(ProductUpdDto dto);
+
+    int checkProduct(ProductCheckDto dto);
+
+    int delProduct(ProductDelDto dto);
+
+    int hiedProduct(ProductDelDto dto);
+
+    ProductEntity checkProductPk(int productPk);
 
 
 }

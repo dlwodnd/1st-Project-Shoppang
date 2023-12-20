@@ -9,6 +9,8 @@ import java.util.List;
 @Mapper
 public interface CategoryMapper {
     List<CategoryEntity> getCategory();
+
     CategoryEntity checkCategory(int categoryPk);
+
     int insCategory(CategoryInsDto dto);
 }

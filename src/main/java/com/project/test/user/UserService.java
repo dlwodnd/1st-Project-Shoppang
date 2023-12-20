@@ -11,13 +11,14 @@ import org.springframework.stereotype.Service;
 public class UserService {
     private final UserMapper USER_MAPPER;
 
-    public ResVo userSignup (UserInsDto dto){
+    public ResVo userSignup(UserInsDto dto) {
         int result = USER_MAPPER.userSignup(dto);
         return new ResVo(result);
     }
-    public ResVo userSignin (UserSigninDto dto){
+
+    public ResVo userSignin(UserSigninDto dto) {
         String userPw = USER_MAPPER.checkUpw(dto);
-        if(dto.getUpw().equals(userPw)){
+        if (dto.getUpw().equals(userPw)) {
             return new ResVo(1);
         }
         return new ResVo(0);

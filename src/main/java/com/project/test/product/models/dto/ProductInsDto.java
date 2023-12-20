@@ -8,7 +8,7 @@ import lombok.Data;
 public class ProductInsDto {
     @Schema(description = "유저 pk값",defaultValue = "1")
     private int userPk;
-    @Schema(description = "카테고리 pk값",defaultValue = "0")
+    @Schema(description = "카테고리 pk값",defaultValue = "1")
     private int categoryPk;
     @Schema(description = "구매예정 상품명",defaultValue = "상품명")
     private String productNm;

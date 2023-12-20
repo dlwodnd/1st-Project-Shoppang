@@ -59,6 +59,7 @@
             </otherwise>
         </choose>
         WHERE user_pk = #{userPk}
+        AND product_pk = #{productPk}
     </update>
     <!--/구매예정 상품 수정-->
 

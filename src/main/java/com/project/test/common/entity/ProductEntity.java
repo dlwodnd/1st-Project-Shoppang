@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class ProductEntity {
+    private int productPk;
     private int userPk;
     private int categoryPk;
     private String productNm;

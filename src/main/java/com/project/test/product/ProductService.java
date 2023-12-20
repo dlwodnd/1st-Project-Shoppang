@@ -60,8 +60,12 @@ public class ProductService {
     //구매예정 상품 수정
     public ResVo updProduct(ProductUpdDto dto){
         String checkProductNm = dto.getProductNm().replaceAll(" ","");
+        ProductEntity productEntity = PRODUCT_MAPPER.checkProductPk(dto.getProductPk());
         CategoryEntity category = CATEGORY_MAPPER.checkCategory(dto.getCategoryPk());
-        if(dto.getUserPk() < 1){
+        if (productEntity.getProductPk() != dto.getProductPk()){
+            throw new PurchaseProductException("잘못된 productPk 값이 입력되었습니다.");
+        }
+        else if(dto.getUserPk() != productEntity.getUserPk()){
             //입력받은 userPk값이 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 userPK 값이 입력되었습니다.");
         }

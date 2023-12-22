@@ -8,6 +8,7 @@
         SELECT category_pk as categoryPk
         ,category_nm as categoryNm
         FROM t_category
+        ORDER BY category_pk
     </select>
 
     <!--/카테고리 pk값, 이름 불러오기-->

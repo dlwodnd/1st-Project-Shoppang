@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 @Schema(name = "구매예정 상품 추가시 필요 정보")
 public class ProductInsDto {
-    @Schema(description = "유저 pk값",defaultValue = "1")
+    @Schema(description = "유저 pk값")
     private int userPk;
     @Schema(description = "카테고리 pk값",defaultValue = "1")
     private int categoryPk;

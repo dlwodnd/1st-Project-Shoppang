@@ -19,7 +19,7 @@ public interface ProductMapper {
 
     int delProduct(ProductDelDto dto);
 
-    int hiedProduct(ProductDelDto dto);
+    int hideProduct(ProductDelDto dto);
 
     ProductEntity checkProductPk(int productPk);
 

@@ -172,7 +172,7 @@ public class ProductService {
         }
 
         PRODUCT_MAPPER.delProduct(dto);
-        PRODUCT_MAPPER.hiedProduct(dto);
+        PRODUCT_MAPPER.hideProduct(dto);
         return new ResVo(Const.SUCCESS);
     }
 

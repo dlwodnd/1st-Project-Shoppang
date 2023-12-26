@@ -6,7 +6,8 @@
 
     <!--구매예정 상품 유저pk 기준으로 모두 불러오기-->
     <select id="selProductList">
-        SELECT A.product_pk AS productPk ,A.user_pk AS userPk ,B.category_nm AS categoryNm
+        SELECT A.product_pk AS productPk ,A.user_pk AS userPk
+            ,B.category_pk AS categoryPk ,B.category_nm AS categoryNm
             ,A.product_nm AS productNm ,A.memo ,A.created_at AS createdAt
             ,A.buying_check AS buyingCheck ,date(A.buying_date) AS buyingDate
         FROM t_purchase_product A
@@ -94,7 +95,7 @@
             ,product_nm AS productNm
             ,created_at AS createdAt
             ,buying_check AS buyingCheck
-            ,buying_date AS buyingDate
+            ,date(buying_date) AS buyingDate
         FROM t_purchase_product
         WHERE product_pk = #{productPk}
     </select>

@@ -12,6 +12,8 @@ public class ProductSelVo {
     private int userPk;
     @Schema(description = "구매예정 상품명")
     private String productNm;
+    @Schema(description = "카테고리 pk값")
+    private int categoryPk;
     @Schema(description = "카테고리 이름")
     private String categoryNm;
     @Schema(description = "구매예정 상품 메모")

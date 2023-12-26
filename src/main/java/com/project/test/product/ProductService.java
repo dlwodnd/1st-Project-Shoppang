@@ -111,6 +111,10 @@ public class ProductService {
             //입력받은 categoryPk값이 없는 값이라면 예외처리
             throw new PurchaseProductException("잘못된 categoryPK 값이 입력되었습니다.");
         }
+        if(productEntity.getBuyingCheck() != 0){
+            //이미 구매확정 처리된 상품이거나 숨김 처리된 productPk값 예외처리
+            throw new PurchaseProductException("잘못된 productPk 값이 입력되었습니다.");
+        }
 
         int result = PRODUCT_MAPPER.updProduct(dto);
         return new ResVo(result);

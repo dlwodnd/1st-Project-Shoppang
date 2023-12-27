@@ -64,8 +64,19 @@
         SET buying_check = 1
             ,buying_date = NOW()
         WHERE product_pk = #{productPk}
+        AND user_pk = #{userPk}
     </update>
-    <!--/구매예정 상품 구매확정 처리-->
+    <!--구매예정 상품 구매확정 처리-->
+
+    <!--구매확정 취소 처리-->
+    <update id="returnProduct">
+        UPDATE t_purchase_product
+        SET buying_check = 0
+        ,buying_date = NULL
+        WHERE product_pk = #{productPk}
+        AND user_pk = #{userPk}
+    </update>
+    <!--구매확정 취소 처리-->
 
     <!--구매예정 상품 삭제처리-->
     <delete id="delProduct">

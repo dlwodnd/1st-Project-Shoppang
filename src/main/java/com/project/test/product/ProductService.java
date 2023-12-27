@@ -138,9 +138,9 @@ public class ProductService {
             //입력받은 productPK 값이 userPk가 작성한 값이 아니라면 예외처리
             throw new PurchaseProductException("입력한 productPk값은 다른 유저의 값 입니다.");
         }
-        if (productEntity.getBuyingCheck() != 0) {
-            //입력된 productPk값에서 나온 buyingCheck 값이 이미 구매 완료 처리를 했거나 숨김 상태라면 예외처리
-            throw new PurchaseProductException("이미 구매 확정된 productPk값 입니다.");
+        if(productEntity.getBuyingCheck() == 1){
+            PRODUCT_MAPPER.returnProduct(dto);
+            return new ResVo(2);
         }
         int result = PRODUCT_MAPPER.checkProduct(dto);
         return new ResVo(result);

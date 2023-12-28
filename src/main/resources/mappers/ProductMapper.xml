@@ -25,6 +25,7 @@
                 AND A.buying_check = 1
             </when>
         </choose>
+        ORDER BY A.product_pk desc
     </select>
     <!--/구매예정 상품 유저pk 기준으로 모두 불러오기-->
 

@@ -14,6 +14,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -29,7 +30,10 @@ public class ProductController {
             , @Parameter(name = "choiceList", description = "장바구니 표시 설정.<br>" + "0 : 모든 상품 보기.(디폴트값)<br>" + "1 : 구매예정 상품만 보기.<br>" + "2 : 구매확정 상품만 보기.<br>", required = true)})
     @Operation(summary = "구매예정 상품 목록", description = "구매예정 상품 목록.")
     public List<ProductSelVo> getProductAll(ProductSelDto dto) {
-
+        if(dto.getUserPk() == 2){
+            List<ProductSelVo> productSelVos = new ArrayList<>();
+            return productSelVos;
+        }
         if (dto.getChoiceList() < 0 || dto.getChoiceList() > 2) {
             //입력받은 choiceList 값이 0 1 2 가 아니라면 디폴트 값인 0으로 변경
             dto.setChoiceList(0);
@@ -46,7 +50,7 @@ public class ProductController {
             //입력받은 productNm 값이 공백제외 길이가 0 이라면 예외처리
             throw new PurchaseProductException("productNm은 필수 입력값입니다.");
         }
-        log.info("dto : {}", dto);
+        log.info("insDto : {}", dto);
         ResVo result = PRODUCT_SERVICE.insProduct(dto);
         return result;
 
@@ -70,6 +74,7 @@ public class ProductController {
     @Parameters(value = {@Parameter(name = "userPk", description = "유저pk값", required = true),
             @Parameter(name = "productPk", description = "구매예정 상품pk값", required = true)})
     public ResVo checkProduct(ProductCheckDto dto) {
+        log.info("checkDto : {} ",dto);
         ResVo result = PRODUCT_SERVICE.checkProduct(dto);
         return result;
     }
